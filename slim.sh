@@ -11,6 +11,7 @@ apt-get -y remove --purge omxplayer
 apt-get -y autoremove
 apt-get -y update
 apt-get -y install ruby
+apt-get -y install ruby1.9.1-dev
 apt-get -y install git
 apt-get -y install libnss-mdns
 gem install gpio
