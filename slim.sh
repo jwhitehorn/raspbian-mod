@@ -14,7 +14,7 @@ apt-get -y install ruby
 apt-get -y install ruby1.9.1-dev
 apt-get -y install git
 apt-get -y install libnss-mdns
-gem install gpio
+gem install pi_piper
 dd if=/dev/zero of=zero.file bs=1024
 sync; sleep 60; sync
 rm zero.file
