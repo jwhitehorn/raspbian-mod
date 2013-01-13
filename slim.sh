@@ -17,6 +17,18 @@ apt-get -y install libnss-mdns
 gem install pi_piper
 wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update
 rpi-update
+echo "$(tput setaf 2)
+   .~~.   .~~.
+  '. \ ' ' / .'$(tput setaf 1)
+   .~ .~~~..~.
+  : .~.'~'.~. :
+ ~ (   ) (   ) ~
+( : '~'.~.'~' : )
+ ~ .~ (   ) ~. ~
+  (  : '~' :  ) $(tput sgr0)Raspberry Pi$(tput setaf 1)
+   '~ .~~~. ~'
+       '~'
+$(tput sgr0)" > /etc/motd
 dd if=/dev/zero of=zero.file bs=1024
 sync; sleep 60; sync
 rm zero.file
