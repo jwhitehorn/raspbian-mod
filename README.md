@@ -2,7 +2,7 @@
 
 Raspbian-mod is a modification of the Raspbian OS (Debian for the Raspberry Pi) targeted for headless operation. Raspbian-mod removes several packages which are unneeded in headless mode, and adds a few missing packages (like Git, Ruby, and Bonjour support).
 
-Raspbian-mod fits easily on a 2 GB SD card with ~800 MB of free space remaining. 
+Raspbian-mod fits easily on a 2 GB SD card with ~550 MB of free space remaining. For those looking for additional space, larger cards are supported as well.
 
 Bonjour support means that you can SSH into your Pi without having to know it's IP address. Simply:
 
