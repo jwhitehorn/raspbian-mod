@@ -29,6 +29,11 @@ echo "$(tput setaf 2)
    '~ .~~~. ~'
        '~'
 $(tput sgr0)" > /etc/motd
+echo "syntax enable 
+set tabstop=2
+set softtabstop=2
+set shiftwidth=2
+set expandtab" > /home/pi/.vimrc
 dd if=/dev/zero of=zero.file bs=1024
 sync; sleep 60; sync
 rm zero.file
