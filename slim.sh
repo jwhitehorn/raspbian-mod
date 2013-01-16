@@ -36,6 +36,7 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab" > /home/pi/.vimrc
+echo "export EDITOR=vim" > /home/pi/.bashrc
 dd if=/dev/zero of=zero.file bs=1024
 sync; sleep 60; sync
 rm zero.file
