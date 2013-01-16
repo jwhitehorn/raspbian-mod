@@ -22,7 +22,7 @@ rpi-update
 cd /home/pi
 wget http://www.open.com.au/mikem/bcm2835/bcm2835-1.17.tar.gz
 tar zxvf bcm2835-1.17.tar.gz
-cd cd bcm2835-1.17/
+cd bcm2835-1.17/
 ./configure && make && make check && make install
 cd /home/pi
 rm -rf /home/pi/bcm2835-1.17/
