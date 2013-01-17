@@ -19,13 +19,6 @@ gem install pi_piper
 rm -rf /home/pi/python_games
 wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update
 rpi-update
-cd /home/pi
-wget http://www.open.com.au/mikem/bcm2835/bcm2835-1.17.tar.gz
-tar zxvf bcm2835-1.17.tar.gz
-cd bcm2835-1.17/
-./configure && make && make check && make install
-cd /home/pi
-rm -rf /home/pi/bcm2835-1.17/
 echo "$(tput setaf 2)
    .~~.   .~~.
   '. \ ' ' / .'$(tput setaf 1)
@@ -43,7 +36,8 @@ set tabstop=2
 set softtabstop=2
 set shiftwidth=2
 set expandtab" > /home/pi/.vimrc
-echo "export EDITOR=vim" > /home/pi/.bashrc
+cp /etc/skel/.bashrc /home/pi/.bashrc
+echo "export EDITOR=vim" >> /home/pi/.bashrc
 dd if=/dev/zero of=zero.file bs=1024
 sync; sleep 60; sync
 rm zero.file
