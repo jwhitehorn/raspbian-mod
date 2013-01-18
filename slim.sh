@@ -16,6 +16,7 @@ apt-get -y install git
 apt-get -y install libnss-mdns
 apt-get -y install vim
 gem install pi_piper
+gem install rake
 rm -rf /home/pi/python_games
 wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update
 rpi-update
