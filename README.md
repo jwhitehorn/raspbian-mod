@@ -12,7 +12,7 @@ Bonjour support means that you can SSH into your Pi without having to know it's 
     
 # Features
 
-In addition to slimming down Rasbian by removing the GUI, Rasbian-mod also features:
+In addition to slimming down Raspbian by removing the GUI, Raspbian-mod also features:
 
 * Ruby 1.9.3
 * Git
