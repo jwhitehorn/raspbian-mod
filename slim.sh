@@ -27,7 +27,7 @@ echo "$(tput setaf 2)
  ~ (   ) (   ) ~
 ( : '~'.~.'~' : )
  ~ .~ (   ) ~. ~
-  (  : '~' :  ) $(tput sgr0)Raspberry Pi$(tput setaf 1)
+  (  : '~' :  ) $(tput sgr0)Raspbian-mod$(tput setaf 1)
    '~ .~~~. ~'
        '~'
 $(tput sgr0)" > /etc/motd
