@@ -15,9 +15,17 @@ apt-get -y install ruby1.9.1-dev
 apt-get -y install git
 apt-get -y install libnss-mdns
 apt-get -y install vim
+apt-get -y install byobu
+apt-get -y install irssi irssi-scripts
+apt-get -y install samba samba-common-bin
+apt-get -y install nginx
+apt-get -y install ntfs-3g
+apt-get -y install libpcap0.8
 gem install pi_piper
 gem install rake
 rm -rf /home/pi/python_games
+wget https://github.com/andreafabrizi/Dropbox-Uploader/raw/master/dropbox_uploader.sh -O /usr/bin/dropbox && sudo chmod +x /usr/bin/dropbox
+wget http://www.overlooksoft.com/packages/download?plat=arm -O /home/pi/fing.deb && dpkg -i /home/pi/fing.deb && rm /home/pi/fing.deb
 wget http://goo.gl/1BOfJ -O /usr/bin/rpi-update && sudo chmod +x /usr/bin/rpi-update
 rpi-update
 echo "$(tput setaf 2)

@@ -19,6 +19,13 @@ In addition to slimming down Raspbian by removing the GUI, Raspbian-mod also fea
 * Bonjour
 * [Hexxeh firmware update](https://github.com/Hexxeh/rpi-update)
 * Full Vim (with syntax highlighting enabled)
+* Byobu
+* Irssi
+* Samba
+* nginx
+* ntfs-3g
+* [Dropbox-Uploader](https://github.com/andreafabrizi/Dropbox-Uploader)
+* [Fing](http://www.overlooksoft.com/features)
 
 # Building
 
