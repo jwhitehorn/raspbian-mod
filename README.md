@@ -33,7 +33,7 @@ You can build your own Raspbian-mod by starting with with the official image fro
 
 Once you've created your Raspbian SD card, boot your Raspberry Pi and execute this command from the command prompt:
 
-    sudo bash < <( curl https://github.com/toXel/raspbian-mod/raw/master/slim.sh )
+    sudo bash < <( curl https://raw.github.com/jwhitehorn/raspbian-mod/master/slim.sh )
     
 This command will take several minutes to complete, and should leave you with a freshly optimized Raspbian installation.
 
